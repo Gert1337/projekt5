@@ -1,0 +1,29 @@
+body {
+  font-family: 'Roboto Mono', monospace;
+  color: #515f5d;
+  font-size: 15px;
+  letter-spacing: -0.013em;
+}
+
+h1 {
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px;
+  border: 3px solid #a6bb75;
+  color: #a6bb75;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.page-links {
+  color: #6696ac;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.blue {
+  color: #6696ac;
+}
