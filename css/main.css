@@ -24,6 +24,14 @@ h1 {
   text-decoration: underline;
 }
 
+.submit-btn {
+  background-color: #a6bb75;
+  border-style: none;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 15px;
+}
+
 .blue {
   color: #6696ac;
 }
