@@ -39,3 +39,9 @@ h1 {
 .grey {
   color: #515f5d;
 }
+
+/* NOTE: specifikt til styleguide */
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
