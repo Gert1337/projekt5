@@ -3,6 +3,8 @@ body {
   color: #515f5d;
   font-size: 15px;
   letter-spacing: -0.013em;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 h1 {
@@ -30,18 +32,84 @@ h1 {
   color: #ffffff;
   font-weight: bold;
   padding: 15px;
+  width: 100%;
 }
+
+/* NOTE: farver */
 
 .blue {
   color: #6696ac;
+}
+
+.blue-bg {
+  background-color: #6696ac;
+}
+
+.orange {
+  color: #d7734a;
+}
+
+.orange-bg {
+  background-color: #d7734a;
+}
+
+.yellow {
+  color: #d8a55a;
+}
+
+.yellow-bg {
+  background-color: #d8a55a;
+}
+
+.green {
+  color: #a6bb75;
+}
+
+.green-bg {
+  background-color: #a6bb75;
+}
+
+.purple {
+  color: #aa81ac;
+}
+
+.purple-bg {
+  background-color: #aa81ac;
 }
 
 .grey {
   color: #515f5d;
 }
 
+.grey-bg {
+  background-color: #515f5d;
+}
+
+
 /* NOTE: specifikt til styleguide */
 .links {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.type {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.color-type {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.block {
+  width: 70px;
+  height: 20px;
 }
