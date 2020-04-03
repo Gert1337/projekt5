@@ -3,8 +3,28 @@ body {
   color: #515f5d;
   font-size: 15px;
   letter-spacing: -0.013em;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 100px;
+  margin-right: 240px;
+}
+
+nav {
+  width: 160px;
+  padding: 40px 50px;
+  position: fixed;
+  top: 0;
+  right: 20px;
+}
+
+nav li {
+  margin-bottom: 25px;
+}
+
+.nav-link {
+  display: block;
+  font-weight: 700;
+  text-decoration: none;
+  color: #515f5d;
+  font-size: 18px;
 }
 
 h1 {
