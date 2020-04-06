@@ -3,6 +3,9 @@ body {
   color: #515f5d;
   font-size: 15px;
   letter-spacing: -0.013em;
+}
+
+.main-content {
   margin-left: 100px;
   margin-right: 240px;
 }
@@ -53,6 +56,15 @@ h1 {
   font-weight: bold;
   padding: 15px;
   width: 100%;
+}
+
+.text-field {
+  width: 380px;
+  padding: 15px;
+  border-width: 3px;
+  border-color: #a6bb75;
+  box-shadow: none;
+  border-style: solid;
 }
 
 /* NOTE: farver */
