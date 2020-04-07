@@ -10,28 +10,76 @@
   <body>
 
     <div class="main-content">
-      <button type="button" class="form-btn-red" class="acordian" name="">Hvilken platform skal den bruges til?</button>
+      <button class="accordion">Hvilken platform skal den bruges til?</button>
       <div class="panel">
-        <form action="/action_page.php">
-    <input type="checkbox" id="plat1" name="plat1" value="iOS">
-    <label for="vehicle1"> Til Iphone</label><br>
-    <input type="checkbox" id="plat2" name="plat2" value="Android">
-    <label for="vehicle2"> Til Android</label><br>
-    <input type="checkbox" id="plat3" name="plat3" value="Begge">
-    <label for="vehicle3"> Begge </label><br><br>
-    <input type="submit" value="Submit">
-    <br>
-      <button type="button" class="form-btn-red" class="acordian" name="">Hvor mange skal den bruges til?</button>
-    <br>
-      <button type="button" class="form-btn-red" class="acordian" name="">Hvem er den til?</button>
-      <br>
-      <button type="button" class="form-btn-red" class="acordian" name="">Hvad er formålet med appen?</button>
-      <br>
-            <button type="button" class="form-btn-red" class="acordian" name="">Kontakt information</button>
-  </form>
+      	<form>
+       	 <input type="checkbox" id="plat1" name="plat1" value="iOS">
+          <label for="plat1"> Til Iphone</label><br>
+          <input type="checkbox" id="plat2" name="plat2" value="Android">
+          <label for="plat2"> Til Android</label><br>
+          <input type="checkbox" id="plat3" name="plat3" value="Begge">
+          <label for="plat3"> Begge </label><br>
+          <input type="checkbox" id="plat4" name="plat4" value="Ved ikke">
+          <label for="plat4"> Det ved jeg ikke helt endnu</label>
+          </form>
+      </div>
+
+      <button class="accordion">Forventet antal brugerer?</button>
+      <div class="panel">
+      		<form>
+        	 <input type="checkbox" id="antal1" name="antal1" value="1-50">
+              <label for="antal1"> Under 50 </label><br>
+              <input type="checkbox" id="antal2" name="antal2" value="50-500">
+              <label for="plat2"> Over 50, under 500</label><br>
+              <input type="checkbox" id="antal3" name="antal3" value="Over 500">
+              <label for="antal3"> Over 500 </label><br>
+              </form>
+      </div>
+
+      <button class="accordion">Hvem er den til?</button>
+      <div class="panel">
+      <form>
+      <input type="text" id="target-a" name="target-a" value="Er det til internt eller eksternt brug?">
+      </form>
+      </div>
+
+      <button class="accordion">Hvad er formålet med appen?</button>
+      <div class="panel">
+      <form>
+      <input type="text" id="indhold" name="indhold" value="Skriv her hvad du skal bruge appen til">
+      </form>
+      </div>
+
+      <button class="accordion">Kontakt information</button>
+      <div class="panel">
+      	<form>
+          <label for="name">Navn:</label><br>
+        <input type="text" id="name" name="name" value=""><br>
+        <label for="firma">Firma:</label><br>
+        <input type="text" id="firma" name="firma" value=""><br>
+        <label for="name">Email:</label><br>
+      <input type="text" id="email" name="email" value=""><br>
+      <label for="tlf">Tlf:</label><br>
+      <input type="text" id="tlf" name="tlf" value=""><br>
+      </form>
       </div>
     </div>
+    <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
 
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+    </script>
     <nav>
       <ul>
         <li><a title="Projekter" class="nav-link" href="https://www.houseofcode.io/projekter/">Projekter</a></li>
