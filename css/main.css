@@ -19,8 +19,24 @@ nav {
   z-index: 10;
 }
 
+.nav-logo {
+  margin-left: 2em;
+  margin-bottom: 50px;
+  width: 94px;
+  height:54px;
+  background: url(../media/svg/hoc-icon-color.svg) no-repeat;
+  display: block;
+}
+
+nav ul {
+  counter-reset:item;
+  list-style-type: none;
+  padding-left: 0;
+}
+
 nav li {
   margin-bottom: 25px;
+  display: block;
 }
 
 .nav-link {
@@ -29,11 +45,19 @@ nav li {
   text-decoration: none;
   color: #515f5d;
   font-size: 18px;
+  overflow: hidden;
 }
 
-.nav-link::before {
+
+
+nav li::before {
   content: "0" counter(item);
   counter-increment: item;
+  float: left;
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.6;
+  width: 2em;
 }
 
 h1 {
@@ -121,6 +145,10 @@ h1 {
 
 .grey-bg {
   background-color: #515f5d;
+}
+
+.light-grey {
+  color: #c0bcbb;
 }
 
 
