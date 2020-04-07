@@ -16,6 +16,7 @@ nav {
   position: fixed;
   top: 0;
   right: 20px;
+  z-index: 10;
 }
 
 nav li {
@@ -28,6 +29,11 @@ nav li {
   text-decoration: none;
   color: #515f5d;
   font-size: 18px;
+}
+
+.nav-link::before {
+  content: "0" counter(item);
+  counter-increment: item;
 }
 
 h1 {
