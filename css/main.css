@@ -46,9 +46,12 @@ nav li {
   color: #515f5d;
   font-size: 18px;
   overflow: hidden;
+  transition: color 200ms;
 }
 
-
+.nav-link:hover {
+  color: #6696ac;
+}
 
 nav li::before {
   content: "0" counter(item);
@@ -58,6 +61,16 @@ nav li::before {
   font-size: 18px;
   opacity: 0.6;
   width: 2em;
+}
+
+.project-paranth::after {
+  content: "()";
+  color: #c0bcbb;
+}
+
+.kontakt-end::after {
+  content: ";";
+  color: #c0bcbb;
 }
 
 h1 {
