@@ -164,6 +164,18 @@ h1 {
   color: #c0bcbb;
 }
 
+.light-grey-bg {
+  background-color: #c0bcbb;
+}
+
+.pink {
+  color: #d47378;
+}
+
+.pink-bg {
+  background-color: #d47378;
+}
+
 
 /* NOTE: specifikt til styleguide */
 .links {
