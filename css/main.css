@@ -204,3 +204,7 @@ h1 {
   width: 70px;
   height: 20px;
 }
+
+input[type=text] {
+  width: 600px;
+}
