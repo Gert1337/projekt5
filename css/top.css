@@ -37,7 +37,7 @@
     margin-right: 240px;
     grid-column: 1/2;
     grid-row: 3/4;
-    background-color: red;
+    background-color: #D47378;
 }
 .video {
     position: absolute;
