@@ -3,6 +3,7 @@ body {
   color: #515f5d;
   font-size: 15px;
   letter-spacing: -0.013em;
+  padding: 0;
 }
 
 .main-content {
@@ -176,6 +177,90 @@ h1 {
   background-color: #d47378;
 }
 
+.mobile-toggle {
+  display: none;
+}
+
+/* NOTE: desktop only */
+@media only screen and (min-width: 1000px){
+
+.topnav {
+  display: none;
+}
+
+}
+
+/* NOTE: tablet only */
+@media only screen and (max-width: 1000px){
+
+ .main-content {
+   margin-top: 100px;
+ }
+
+  nav {
+    display: none;
+  }
+
+
+  .topnav {
+overflow: hidden;
+position: relative;
+background-color: #fff;
+position: fixed;
+right: 0;
+top: 0;
+width: 100%;
+}
+
+.mobile-logo {
+  background: url(../media/svg/hoc-icon-color.svg) no-repeat;
+  width: 97px;
+  height: 54px;
+  margin-left: 20px;
+  margin-top: 10px;
+  background-position: center;
+}
+
+
+display: none;
+}
+
+.topnav a {
+color: #515f5d;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+display: block;
+position: absolute;
+right: 0;
+top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+}
+
+/* Style the active link (or home/logo) */
+.active {
+color: white;
+}
+
+#myLinks ul {
+list-style-type: none;
+counter-reset:item;
+padding-left: 0;
+background-color: #fff;
+}
+
+}
+
+
+
 
 /* NOTE: specifikt til styleguide */
 .links {
@@ -203,8 +288,4 @@ h1 {
 .block {
   width: 70px;
   height: 20px;
-}
-
-input[type=text] {
-  width: 600px;
 }
