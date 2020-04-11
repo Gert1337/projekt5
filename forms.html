@@ -1,20 +1,32 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
   <head>
+
+    <script src="js.js" defer charset="utf-8"></script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main2.css">
       <link rel="stylesheet" href="css/footer.css">
     <title>Hvad koster en app; tag kontakt og få et unikt tilbud for din unikke vision</title>
   </head>
   <body>
 
     <div class="main-content">
+
+      <div class="accordionwrapper">
+        <div class="stepup">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+        </div>
+
       <!-- NOTE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_animate er brugt til at animere og gemme panelerne -->
       <button class="accordion pink-bg" >Hvilken platform skal den bruges til?</button>
       <div class="panel">
-      	<form class="platform">
-       	 <input type="checkbox" id="plat1" name="plat1" value="iOS">
+        <form class="platform">
+         <input type="checkbox" id="plat1" name="plat1" value="iOS">
           <label for="plat1"> Til Iphone</label><br>
           <input type="checkbox" id="plat2" name="plat2" value="Android">
           <label for="plat2"> Til Android</label><br>
@@ -27,8 +39,8 @@
 
       <button class="accordion green-bg">Forventet antal brugerer?</button>
       <div class="panel">
-      		<form class="antal">
-        	 <input type="checkbox" id="antal1" name="antal1" value="1-50">
+          <form class="antal">
+           <input type="checkbox" id="antal1" name="antal1" value="1-50">
               <label for="antal1"> Under 50 </label><br>
               <input type="checkbox" id="antal2" name="antal2" value="50-500">
               <label for="plat2"> Over 50, under 500</label><br>
@@ -53,7 +65,7 @@
 
       <button class="accordion orange-bg">Kontakt information</button>
       <div class="panel">
-      	<form class="kontakt">
+        <form class="kontakt">
           <label for="name">Navn:</label><br>
         <input type="text" id="name" name="name" value=""><br>
         <label for="firma">Firma:</label><br>
@@ -65,25 +77,29 @@
       <input type="submit" name="indsend" value="Indsend" class="submit-btn indsend">
       </form>
       </div>
-      <a href="#" class="btn">Tilbage</a> <a href="#" class="btn">Videre</a>
-    </div>
-    <script>
-    var acc = document.getElementsByClassName("accordion");
-    var i;
+      <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+      <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+      </div>
 
-    for (i = 0; i < acc.length; i++) {
-      acc[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        var panel = this.nextElementSibling;
-        if (panel.style.maxHeight) {
-          panel.style.maxHeight = null;
-        } else {
-          panel.style.maxHeight = panel.scrollHeight + "px";
-        }
-      });
-    }
+    <form class="billed" id="regForm" action="" method="">
+      <div class="tab">
+        <img src="img/hus1.jpg" alt="">
+      </div>
+      <div class="tab">
+          <img src="img/hus2.jpg" alt="">
+      </div>
+      <div class="tab">
+        <img src="img/hus3.jpg" alt="">
+      </div>
+      <div class="tab">
+        <img src="img/hus4.jpg" alt="">
+      </div>
+      <div class="tab">
+        <img src="img/hus5.jpg" alt="">
+      </div>
+    </form>
 
-    </script>
+
     <nav>
       <a href="https://www.houseofcode.io/" class="nav-logo"></a>
       <ul>
@@ -96,6 +112,7 @@
         <li><a title="Kontakt" class="nav-link item kontakt-end" href="https://www.houseofcode.io/kontakt/">Kontakt</a></li>
       </ul>
     </nav>
+  </div>
 
       <footer id="footer" role="contentinfo">
       <div class="center">
