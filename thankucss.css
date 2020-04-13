@@ -1,22 +1,12 @@
-@media screen and (min-width: 1199px) {
+/* MOBILE STYLING */
 
+@media screen and (min-width: 375px) {
 
-/* IKON WEB STYLING */
-
-  .hearticon {
-    padding-top: 4em;
-    padding-bottom: 3em;
-    padding-left: 6em;
-    width: 30em;
-  }
-
-
-/* WEB TEKST STYLING */
-
-.code_heading {
-  font-size: 2.5em;
+.hearticon {
+  width: 20em;
+  padding-bottom: 2em;
+  padding-left: 1em;
 }
-
 
 .code_heading::after {
   content: "   {";
@@ -24,11 +14,51 @@
 }
 
 .tekst {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  font-size: 1.5em;
+}
+
+.bracket {
+  padding-bottom: 1em;
+}
+
+}
+
+
+
+/* WEB STYLING */
+@media screen and (min-width: 1000px) {
+
+/* IKON WEB STYLING */
+  .hearticon {
+    padding-top: 4em;
+    padding-bottom: 3em;
+    padding-left: 6em;
+    width: 30em;
+  }
+
+/* WEB TEKST STYLING */
+.code_heading {
+  font-size: 3em;
+  padding-bottom: 0.5em;
+  padding-left: 0.3em;
+}
+
+.code_heading::after {
+  content: "   {";
+  font-size: 1em;
+  padding-bottom: 2em;
+
+}
+
+.tekst {
   font-size: 1.2em;
 }
 
 .bracket {
-  font-size: 3em;
+  font-size: 2.5em;
+  padding-bottom: 1em;
 }
 
 }

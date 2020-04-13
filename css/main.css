@@ -246,7 +246,7 @@ video {
 
 /* NOTE: form grid */
 
-.main-content {
+.main-content2 {
   margin-left: 100px;
   margin-right: 240px;
   display: grid;
@@ -283,6 +283,8 @@ transform: translateY(-50%);
 
  .main-content {
    margin-top: 100px;
+   margin-left: 50px;
+   margin-right: 50px;
  }
 
   nav {
@@ -351,7 +353,14 @@ background-color: #fff;
 
 }
 
+/* NOTE: mobil only */
+@media only screen and (max-width: 700px) {
 
+  .main-content {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
 
 
 
