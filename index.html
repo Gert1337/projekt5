@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="shortcut icon" type="image/ico" href="image/favicon.ico" size="16x16">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <title>Hvad koster en app; tag kontakt og få et unikt tilbud for din unikke vision</title>
-  <script src="mobile-nav.js" defer>
-
-  </script>
+  <script src="mobile-nav.js" defer></script>
+  <script src="top.js" defer></script>
+  <script src="js.js" defer charset="utf-8"></script>
 </head>
 
 <body>
@@ -44,8 +44,102 @@
       <i class="fa fa-bars"></i>
     </a>
   </div>
+  <div class="video-wrapper">
+  <video loop autoplay muted id="app-video" width="inherit" height="inherit">
+    <source src="media/hvad-koster-en-app.mp4" type="video/mp4">
+  </video>
+  <h1 class="main-text">Hvad koster en <span class="orange">app</span>?</h1>
+  <a href="#main" onclick="myFunction()" id="tocontent"> <b>scroll<span class="light-grey">View.</b></span></a>
+</div>
   <div class="main-content">
+    <div id="formular">
+      <div class="accordionwrapper">
+        <div class="stepup">
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+          <span class="step"></span>
+        </div>
 
+        <!-- NOTE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_animate er brugt til at animere og gemme panelerne -->
+        <button class="accordion pink-bg">Hvilken platform skal den bruges til?</button>
+        <div class="panel">
+          <form class="platform">
+            <input type="checkbox" id="plat1" name="plat1" value="iOS">
+            <label for="plat1"> Til Iphone</label><br>
+            <input type="checkbox" id="plat2" name="plat2" value="Android">
+            <label for="plat2"> Til Android</label><br>
+            <input type="checkbox" id="plat3" name="plat3" value="Begge">
+            <label for="plat3"> Begge </label><br>
+            <input type="checkbox" id="plat4" name="plat4" value="Ved ikke">
+            <label for="plat4"> Det ved jeg ikke helt endnu</label>
+          </form>
+        </div>
+
+        <button class="accordion green-bg">Forventet antal brugerer?</button>
+        <div class="panel">
+          <form class="antal">
+            <input type="checkbox" id="antal1" name="antal1" value="1-50">
+            <label for="antal1"> Under 50 </label><br>
+            <input type="checkbox" id="antal2" name="antal2" value="50-500">
+            <label for="plat2"> Over 50, under 500</label><br>
+            <input type="checkbox" id="antal3" name="antal3" value="Over 500">
+            <label for="antal3"> Over 500 </label><br>
+          </form>
+        </div>
+
+        <button class="accordion blue-bg">Hvem er den til?</button>
+        <div class="panel">
+          <form>
+            <textarea name="target-o" id="target-o" rows="8" cols="80"></textarea>
+          </form>
+        </div>
+
+        <button class="accordion purple-bg">Hvad er formålet med appen?</button>
+        <div class="panel">
+          <form>
+            <textarea name="indhold" id="indhold" rows="8" cols="80"></textarea>
+          </form>
+        </div>
+
+        <button class="accordion orange-bg">Kontakt information</button>
+        <div class="panel">
+          <form class="kontakt">
+            <label for="name">Navn:</label><br>
+            <input type="text" id="name" name="name" value=""><br>
+            <label for="firma">Firma:</label><br>
+            <input type="text" id="firma" name="firma" value=""><br>
+            <label for="name">Email:</label><br>
+            <input type="email" id="email" name="email" value=""><br>
+            <label for="tlf">Tlf:</label><br>
+            <input type="text" id="tlf" name="tlf" value=""><br>
+            <input type="submit" name="indsend" value="Indsend" class="submit-btn indsend">
+          </form>
+        </div>
+        <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+        <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+      </div>
+
+      <form class="billed" id="regForm" action="" method="">
+        <div class="tab">
+          <img src="img/hus1.jpg" alt="">
+        </div>
+        <div class="tab">
+          <img src="img/hus2.jpg" alt="">
+        </div>
+        <div class="tab">
+          <img src="img/hus3.jpg" alt="">
+        </div>
+        <div class="tab">
+          <img src="img/hus4.jpg" alt="">
+        </div>
+        <div class="tab">
+          <img src="img/hus5.jpg" alt="">
+        </div>
+      </form>
+    </div>
+    </div>
   </div>
   <footer id="footer" role="contentinfo">
     <div class="center">
