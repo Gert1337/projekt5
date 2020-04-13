@@ -8,6 +8,7 @@
     transform: translate(-50%, 0);
     text-decoration: none;
     color: #6696ac;
+    z-index: 100;
 }
 #tocontent:after {
     content: "";
@@ -23,12 +24,13 @@
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
-.main-content {
+.main-content2 {
     display: grid;
     grid-template-columns: 700px 1fr;
     grid-template-rows: 25% 900px 1fr;
+    z-index: 100;
 }
-.main-content h1 {
+.main-content2 h1 {
     grid-column: 1/2;
     grid-row: 1/2;
 }
@@ -40,6 +42,13 @@
     background-color: red;
 }
 .video {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -3;
+}
+.iframe {
+    frameborder: 0;
     position: absolute;
     top: 0;
     width: 100%;
