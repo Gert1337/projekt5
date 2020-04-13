@@ -1,0 +1,34 @@
+@media screen and (min-width: 1199px) {
+
+
+/* IKON WEB STYLING */
+
+  .hearticon {
+    padding-top: 4em;
+    padding-bottom: 3em;
+    padding-left: 6em;
+    width: 30em;
+  }
+
+
+/* WEB TEKST STYLING */
+
+.code_heading {
+  font-size: 2.5em;
+}
+
+
+.code_heading::after {
+  content: "   {";
+  font-size: 1em;
+}
+
+.tekst {
+  font-size: 1.2em;
+}
+
+.bracket {
+  font-size: 3em;
+}
+
+}
