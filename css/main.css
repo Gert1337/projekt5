@@ -273,7 +273,7 @@ video {
 -ms-transform: translateY(-50%);
 transform: translateY(-50%);
 }
-}
+
 
 
 }
@@ -300,6 +300,7 @@ position: fixed;
 right: 0;
 top: 0;
 width: 100%;
+z-index: 100;
 }
 
 .mobile-logo {
@@ -346,9 +347,14 @@ padding-left: 0;
 background-color: #fff;
 }
 
+.main-text {
+  margin-top: 80px;
+}
+
 .video-wrapper {
   margin-right: 0px;
   margin-top: 100px;
+  z-index: -1;
 }
 
 }
@@ -359,6 +365,14 @@ background-color: #fff;
   .main-content {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  #tocontent{
+    bottom: 100px;
+  }
+
+  .videowrapper {
+    margin-top: 250px;
   }
 }
 
@@ -542,6 +556,7 @@ button {
   padding: 10px 20px;
   font-size: 17px;
   cursor: pointer;
+  width: 107px;
 }
 
 button:hover {
@@ -551,6 +566,12 @@ button:hover {
 #prevBtn {
   background-color: #fff;
   color: #a6bb75;
+  margin-right: 163px;
+  margin-top: 40px;
+}
+
+#nextBtn {
+  margin-top: 40px;
 }
 
 
@@ -559,6 +580,7 @@ button:hover {
 footer{
 	display: block
 }
+
 a {
 text-decoration: underline;
 transition: color 200ms;
