@@ -246,7 +246,7 @@ video {
 
 /* NOTE: form grid */
 
-.main-content2 {
+.main-content {
   margin-left: 100px;
   margin-right: 240px;
   display: grid;
@@ -258,9 +258,12 @@ video {
 .billed {
   grid-column: 2/3;
   grid-row: 1/2;
+  text-align: center;
   justify-content: center;
   display: flex;
+  margin-top: 10px;
 }
+
 
 }
 
