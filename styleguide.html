@@ -1,42 +1,44 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Styleguide ti House of Code landingsite</title>
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script type="text/javascript" defer>
-      function myFunction() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-    </script>
-  </head>
-  <body>
-<a href="#" class="active mobile-logo"></a>
-    <div class="topnav">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Styleguide ti House of Code landingsite</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script type="text/javascript" defer>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
+</head>
+
+<body>
   <a href="#" class="active mobile-logo"></a>
-  <div id="myLinks">
-    <ul class="menu">
-      <li><a title="Projekter" class="nav-link item project-paranth" href="https://www.houseofcode.io/projekter/">Projekter</a></li>
-      <li><a title="Det vi tilbyder" class="nav-link item" href="https://www.houseofcode.io/vi-tilbyder-alt-inden-for-app-og-web/">Det vi tilbyder</a></li>
-      <li><a title="Lær os at kende" class="nav-link item" href="https://www.houseofcode.io/laer-os-at-kende/">Lær os at kende</a></li>
-      <li><a title="Jobs i huset" class="nav-link item" href="https://www.houseofcode.io/job-i-huset/">Jobs i huset</a></li>
-      <li><a title="Blog & Nyheder" class="nav-link item" href="https://www.houseofcode.io/blog-nyheder/">Blog & Nyheder</a></li>
-      <li><a title="Hvad koster en app?" class="nav-link item blue" href="#">Hvad koster en app?</a></li>
-      <li><a title="Kontakt" class="nav-link item kontakt-end" href="https://www.houseofcode.io/kontakt/">Kontakt</a></li>
-    </ul>
+  <div class="topnav">
+    <a href="#" class="active mobile-logo"></a>
+    <div id="myLinks">
+      <ul class="menu">
+        <li><a title="Projekter" class="nav-link item project-paranth" href="https://www.houseofcode.io/projekter/">Projekter</a></li>
+        <li><a title="Det vi tilbyder" class="nav-link item" href="https://www.houseofcode.io/vi-tilbyder-alt-inden-for-app-og-web/">Det vi tilbyder</a></li>
+        <li><a title="Lær os at kende" class="nav-link item" href="https://www.houseofcode.io/laer-os-at-kende/">Lær os at kende</a></li>
+        <li><a title="Jobs i huset" class="nav-link item" href="https://www.houseofcode.io/job-i-huset/">Jobs i huset</a></li>
+        <li><a title="Blog & Nyheder" class="nav-link item" href="https://www.houseofcode.io/blog-nyheder/">Blog & Nyheder</a></li>
+        <li><a title="Hvad koster en app?" class="nav-link item blue" href="#">Hvad koster en app?</a></li>
+        <li><a title="Kontakt" class="nav-link item kontakt-end" href="https://www.houseofcode.io/kontakt/">Kontakt</a></li>
+      </ul>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
   </div>
-  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
-  </a>
-</div>
-    <div class="main-content">
+  <div class="main-content">
     <h1>House of Code</h1>
     <p>{</p>
     <div class="indent">
@@ -155,7 +157,7 @@
     <h2>links og knapper</h2>
     <div class="links">
       <div class="">
-      <a href="#" class="btn">knapper</a>
+        <a href="#" class="btn">knapper</a>
       </div>
       <p>Dette er den primære knappe type</p>
       <div class="">
@@ -168,22 +170,22 @@
         <a href="#" class="page-links">Gå til side links</a><span class="blue">></span>
       </div>
       <p>Dette er links som refere videre på siden, men som ikke er et call to action</p>
-    <div>
-      <pre>
+      <div>
+        <pre>
 <code>&lt;a href=&quot;#&quot; class=&quot;page-links&quot;&gt;link&lt;/a&gt;</code>
       </pre>
-      <p>class = .page-links</p>
-    </div>
-    <div>
-      <input type="submit" value="Indsend" class="submit-btn">
-      <p>form input knap</p>
-    </div>
-    <div>
-      <pre>
+        <p>class = .page-links</p>
+      </div>
+      <div>
+        <input type="submit" value="Indsend" class="submit-btn">
+        <p>form input knap</p>
+      </div>
+      <div>
+        <pre>
 <code>&lt;a href=&quot;#&quot; class=&quot;submit-btn&quot;&gt;input knap&lt;/a&gt;</code>
       </pre>
-      <p>class = .submit-btn</p>
-    </div>
+        <p>class = .submit-btn</p>
+      </div>
     </div>
     <form class="" action="index.html" method="post">
       <label for="name">Name</label><br>
@@ -204,5 +206,6 @@
     </ul>
 
   </nav>
-  </body>
+</body>
+
 </html>
