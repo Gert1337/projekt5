@@ -50,7 +50,7 @@
   .hearticon {
     padding-top: 4em;
     padding-bottom: 3em;
-    padding-left: 8em;
+    padding-left: 16em;
     width: 30em;
   }
 
@@ -61,31 +61,33 @@
 }
 
 .code_heading {
-  font-size: 3em;
-  padding-bottom: 0.3em;
-  padding-left: 0.3em;
+  font-size: 40px;
+  padding-bottom: 0em;
+  padding-left: 3.5em;
 }
 
 .code_heading::after {
   content: "   {";
-  font-size: 1em;
-  padding-bottom: 1em;
-  padding-left: 0.3em;
-}
-
-.tekst {
-  font-size: 2em;
-  padding-left: 2em;
-}
-
-.bracket {
-  font-size: 3em;
+  font-weight: 400;
   padding-bottom: .5em;
   padding-left: 0.3em;
 }
 
+.tekst {
+  font-size: 40px;
+  padding-left: 5em;
+  letter-spacing: -0.013em;
+}
+
+.bracket {
+  font-size: 40px;
+  font-weight: normal;
+  padding-left: 4.1em;
+}
+
 .btn {
-  margin-left: 20em;
+  margin-left: 6em;
+  margin-top: 0em;
 }
 
 }
