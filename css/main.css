@@ -536,12 +536,11 @@ a:active {
 }
 
 button {
-  background-color: #4CAF50;
+  background-color: #a6bb75;
   color: #ffffff;
-  border: none;
+  border: 3px solid #a6bb75;
   padding: 10px 20px;
   font-size: 17px;
-  font-family: Raleway;
   cursor: pointer;
 }
 
@@ -550,7 +549,8 @@ button:hover {
 }
 
 #prevBtn {
-  background-color: #bbbbbb;
+  background-color: #fff;
+  color: #a6bb75;
 }
 
 
