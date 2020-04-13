@@ -258,10 +258,21 @@ video {
 .billed {
   grid-column: 2/3;
   grid-row: 1/2;
-  text-align: center;
-  justify-content: center;
   display: flex;
   margin-top: 10px;
+  margin-left: -5vw;
+  width: 30vw;
+  min-width: 200px;
+  max-width: 500px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  margin-right: 25%;
+  z-index: -1;
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
 }
 
 
