@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="da" dir="ltr">
-  <head>
 
-    <script src="js.js" defer charset="utf-8"></script>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/main2.css">
-      <link rel="stylesheet" href="css/footer.css">
-    <title>Hvad koster en app; tag kontakt og få et unikt tilbud for din unikke vision</title>
-  </head>
-  <body>
+<head>
 
-    <div class="main-content">
+  <script src="js.js" defer charset="utf-8"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/main2.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>Hvad koster en app; tag kontakt og få et unikt tilbud for din unikke vision</title>
+</head>
 
-      <div class="accordionwrapper">
-        <div class="stepup">
-          <span class="step"></span>
-          <span class="step"></span>
-          <span class="step"></span>
-          <span class="step"></span>
-          <span class="step"></span>
-        </div>
+<body>
+
+  <div class="main-content">
+
+    <div class="accordionwrapper">
+      <div class="stepup">
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+        <span class="step"></span>
+      </div>
 
       <!-- NOTE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_animate er brugt til at animere og gemme panelerne -->
-      <button class="accordion pink-bg" >Hvilken platform skal den bruges til?</button>
+      <button class="accordion pink-bg">Hvilken platform skal den bruges til?</button>
       <div class="panel">
         <form class="platform">
-         <input type="checkbox" id="plat1" name="plat1" value="iOS">
+          <input type="checkbox" id="plat1" name="plat1" value="iOS">
           <label for="plat1"> Til Iphone</label><br>
           <input type="checkbox" id="plat2" name="plat2" value="Android">
           <label for="plat2"> Til Android</label><br>
@@ -34,59 +36,59 @@
           <label for="plat3"> Begge </label><br>
           <input type="checkbox" id="plat4" name="plat4" value="Ved ikke">
           <label for="plat4"> Det ved jeg ikke helt endnu</label>
-          </form>
+        </form>
       </div>
 
       <button class="accordion green-bg">Forventet antal brugerer?</button>
       <div class="panel">
-          <form class="antal">
-           <input type="checkbox" id="antal1" name="antal1" value="1-50">
-              <label for="antal1"> Under 50 </label><br>
-              <input type="checkbox" id="antal2" name="antal2" value="50-500">
-              <label for="plat2"> Over 50, under 500</label><br>
-              <input type="checkbox" id="antal3" name="antal3" value="Over 500">
-              <label for="antal3"> Over 500 </label><br>
-              </form>
+        <form class="antal">
+          <input type="checkbox" id="antal1" name="antal1" value="1-50">
+          <label for="antal1"> Under 50 </label><br>
+          <input type="checkbox" id="antal2" name="antal2" value="50-500">
+          <label for="plat2"> Over 50, under 500</label><br>
+          <input type="checkbox" id="antal3" name="antal3" value="Over 500">
+          <label for="antal3"> Over 500 </label><br>
+        </form>
       </div>
 
       <button class="accordion blue-bg">Hvem er den til?</button>
       <div class="panel">
-      <form>
-      <textarea name="target-o" id="target-o" rows="8" cols="80"></textarea>
-      </form>
+        <form>
+          <textarea name="target-o" id="target-o" rows="8" cols="80"></textarea>
+        </form>
       </div>
 
       <button class="accordion purple-bg">Hvad er formålet med appen?</button>
       <div class="panel">
-      <form>
-      <textarea name="indhold" id="indhold" rows="8" cols="80"></textarea>
-      </form>
+        <form>
+          <textarea name="indhold" id="indhold" rows="8" cols="80"></textarea>
+        </form>
       </div>
 
       <button class="accordion orange-bg">Kontakt information</button>
       <div class="panel">
         <form class="kontakt">
           <label for="name">Navn:</label><br>
-        <input type="text" id="name" name="name" value=""><br>
-        <label for="firma">Firma:</label><br>
-        <input type="text" id="firma" name="firma" value=""><br>
-        <label for="name">Email:</label><br>
-      <input type="email" id="email" name="email" value=""><br>
-      <label for="tlf">Tlf:</label><br>
-      <input type="text" id="tlf" name="tlf" value=""><br>
-      <input type="submit" name="indsend" value="Indsend" class="submit-btn indsend">
-      </form>
+          <input type="text" id="name" name="name" value=""><br>
+          <label for="firma">Firma:</label><br>
+          <input type="text" id="firma" name="firma" value=""><br>
+          <label for="name">Email:</label><br>
+          <input type="email" id="email" name="email" value=""><br>
+          <label for="tlf">Tlf:</label><br>
+          <input type="text" id="tlf" name="tlf" value=""><br>
+          <input type="submit" name="indsend" value="Indsend" class="submit-btn indsend">
+        </form>
       </div>
       <button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
       <button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
-      </div>
+    </div>
 
     <form class="billed" id="regForm" action="" method="">
       <div class="tab">
         <img src="img/hus1.jpg" alt="">
       </div>
       <div class="tab">
-          <img src="img/hus2.jpg" alt="">
+        <img src="img/hus2.jpg" alt="">
       </div>
       <div class="tab">
         <img src="img/hus3.jpg" alt="">
@@ -98,55 +100,57 @@
         <img src="img/hus5.jpg" alt="">
       </div>
     </form>
-
-
-    <nav>
-      <a href="https://www.houseofcode.io/" class="nav-logo"></a>
-      <ul>
-        <li><a title="Projekter" class="nav-link item project-paranth" href="https://www.houseofcode.io/projekter/">Projekter</a></li>
-        <li><a title="Det vi tilbyder" class="nav-link item" href="https://www.houseofcode.io/vi-tilbyder-alt-inden-for-app-og-web/">Det vi tilbyder</a></li>
-        <li><a title="Lær os at kende" class="nav-link item" href="https://www.houseofcode.io/laer-os-at-kende/">Lær os at kende</a></li>
-        <li><a title="Jobs i huset" class="nav-link item" href="https://www.houseofcode.io/job-i-huset/">Jobs i huset</a></li>
-        <li><a title="Blog & Nyheder" class="nav-link item" href="https://www.houseofcode.io/blog-nyheder/">Blog & Nyheder</a></li>
-        <li><a title="Hvad koster en app?" class="nav-link item blue" href="#">Hvad koster en app?</a></li>
-        <li><a title="Kontakt" class="nav-link item kontakt-end" href="https://www.houseofcode.io/kontakt/">Kontakt</a></li>
-      </ul>
-    </nav>
   </div>
 
-      <footer id="footer" role="contentinfo">
-      <div class="center">
+
+  <nav>
+    <a href="https://www.houseofcode.io/" class="nav-logo"></a>
+    <ul>
+      <li><a title="Projekter" class="nav-link item project-paranth" href="https://www.houseofcode.io/projekter/">Projekter</a></li>
+      <li><a title="Det vi tilbyder" class="nav-link item" href="https://www.houseofcode.io/vi-tilbyder-alt-inden-for-app-og-web/">Det vi tilbyder</a></li>
+      <li><a title="Lær os at kende" class="nav-link item" href="https://www.houseofcode.io/laer-os-at-kende/">Lær os at kende</a></li>
+      <li><a title="Jobs i huset" class="nav-link item" href="https://www.houseofcode.io/job-i-huset/">Jobs i huset</a></li>
+      <li><a title="Blog & Nyheder" class="nav-link item" href="https://www.houseofcode.io/blog-nyheder/">Blog & Nyheder</a></li>
+      <li><a title="Hvad koster en app?" class="nav-link item blue" href="#">Hvad koster en app?</a></li>
+      <li><a title="Kontakt" class="nav-link item kontakt-end" href="https://www.houseofcode.io/kontakt/">Kontakt</a></li>
+    </ul>
+  </nav>
+
+
+  <footer id="footer" role="contentinfo">
+    <div class="center">
       <div class="row.footer-content">
         <div class="col33">
-        <h4>House of Code</h4>
-        <p>Edisonsvej 2 <br>
-        5000 Odense</p>
-        <p>Mejlgade 27 1. t. h. <br>
-        8000 Århus</p>
-        <p>CVR:36030410</p>
-        <p><a href="https://houseofcode.io/privatlivspolitik/" title="Privatlivspolitik">Privatlivspolitik</a></p>
+          <h4>House of Code</h4>
+          <p>Edisonsvej 2 <br>
+            5000 Odense</p>
+          <p>Mejlgade 27 1. t. h. <br>
+            8000 Århus</p>
+          <p>CVR:36030410</p>
+          <p><a href="https://houseofcode.io/privatlivspolitik/" title="Privatlivspolitik">Privatlivspolitik</a></p>
         </div>
         <div class="col33">
-        <h4>Start projekt</h4>
-        <a href="mailto:info@houseofcode.io" title="Skriv til os">info@houseofcode.io</a>
-        <br>
-        <a href="tel:72170220" title="Ring til os">+45 72 17 02 20</a>
+          <h4>Start projekt</h4>
+          <a href="mailto:info@houseofcode.io" title="Skriv til os">info@houseofcode.io</a>
+          <br>
+          <a href="tel:72170220" title="Ring til os">+45 72 17 02 20</a>
         </div>
         <div class="col33">
           <h4>Socalisér</h4>
           <ul>
             <li>
-            <a href="https://twitter.com/house_of_code" target="_blank" title="House of Code - Twitter">Twitter</a> </li>
+              <a href="https://twitter.com/house_of_code" target="_blank" title="House of Code - Twitter">Twitter</a> </li>
             <li>
-            <a href="https://www.linkedin.com/company/house-of-code-ivs" target="_blank" title="House of Code - LinkedIn">LinkedIn</a></li>
+              <a href="https://www.linkedin.com/company/house-of-code-ivs" target="_blank" title="House of Code - LinkedIn">LinkedIn</a></li>
             <li>
-            <a href="https://www.facebook.com/houseofcodeaps" target="_blank" title="House of Code - Facebook">Facebook</a></li>
+              <a href="https://www.facebook.com/houseofcodeaps" target="_blank" title="House of Code - Facebook">Facebook</a></li>
             <li><a href="https://www.instagram.com/houseofcode/" target="_blank" title="House of Code - Instagram">Instagram</a></li>
           </ul>
         </div>
 
       </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
