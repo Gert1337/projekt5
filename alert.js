@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta "viewport" content="width-device-width, initial-scale=1">
 <title>Hej</title>
-<link href="index.html">
 <script>
   alert("alert i header");
 </script>
