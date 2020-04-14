@@ -74,8 +74,6 @@ nav li::before {
   color: #c0bcbb;
 }
 
-h1 {
-}
 
 .main-text {
   position: absolute;
@@ -116,6 +114,23 @@ h1 {
   border-color: #a6bb75;
   box-shadow: none;
   border-style: solid;
+}
+
+/* STYLING AF "UNIK VURDERING" TEKST */
+
+.gul-heading {
+  font-size: 25px;
+  padding-left: 5px;
+}
+
+.gul-tekst {
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.gul-bracket {
+  font-size: 25px;
+  padding-left: 5px;
 }
 
 /* NOTE: farver */
