@@ -80,7 +80,8 @@ h1 {
 .main-text {
   position: absolute;
   top: 20px;
-  padding-left: 20px;
+  padding-left: 3.5em;
+  padding-bottom: 2em;
 }
 
 .btn {
@@ -379,8 +380,7 @@ background-color: #fff;
 }
 
 .main-text {
-  margin-top: 50px;
-  padding-left: 40px;
+  margin-top: 80px;
 }
 
 .video-wrapper {
