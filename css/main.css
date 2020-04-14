@@ -235,6 +235,37 @@ video {
     transform: rotate(45deg);
 }
 
+button {
+  background-color: #a6bb75;
+  color: #ffffff;
+  border: 3px solid #a6bb75;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  width: 110px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+#prevBtn {
+  background-color: #fff;
+  color: #a6bb75;
+  margin-right: 150px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#nextBtn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+}
+
+
 
 
 /* NOTE: desktop only */
@@ -348,7 +379,8 @@ background-color: #fff;
 }
 
 .main-text {
-  margin-top: 80px;
+  margin-top: 50px;
+  padding-left: 40px;
 }
 
 .video-wrapper {
@@ -373,6 +405,20 @@ background-color: #fff;
 
   .videowrapper {
     margin-top: 250px;
+  }
+
+  #prevBtn {
+    margin-right: 156px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .main-content {
+    margin-right: 0px;
+  }
+
+  .btn-wrapper {
+    display: flex;
   }
 }
 
@@ -495,6 +541,7 @@ a:active {
 
 .panel6 {
   border: 3px solid #d8a55a;
+  width: 380px;
 }
 
 .platform, .antal{
@@ -532,6 +579,13 @@ a:active {
 }
 
 /* Make circles that indicate the steps of the form: */
+
+.stepup {
+  overflow: hidden;
+  justify-content: center;
+  display: flex;
+}
+
 .step {
   height: 10px;
   width: 60px;
@@ -541,8 +595,6 @@ a:active {
   margin-bottom: 20px;
   background-color: #aa81ac;
   border: none;
-  display:inline-flex;
-  justify-content: center;
 
 
 }
@@ -557,33 +609,6 @@ a:active {
 /* Mark the steps that are finished and valid: */
 .step.finish {
   background-color: #a6bb75;
-}
-
-button {
-  background-color: #a6bb75;
-  color: #ffffff;
-  border: 3px solid #a6bb75;
-  padding: 10px 20px;
-  font-size: 17px;
-  cursor: pointer;
-  width: 107px;
-}
-
-button:hover {
-  opacity: 0.8;
-}
-
-#prevBtn {
-  background-color: #fff;
-  color: #a6bb75;
-  margin-right: 163px;
-  margin-top: 40px;
-  margin-bottom: 40px;
-}
-
-#nextBtn {
-  margin-top: 40px;
-  margin-bottom: 40px;
 }
 
 
