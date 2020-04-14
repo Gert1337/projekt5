@@ -6,34 +6,36 @@
   width: 20em;
   padding-top: 7em;
   padding-bottom: 2em;
-  padding-left: 2.4em;
+  padding-left: 4em;
 }
 
 .code_heading {
+  font-size: 40px;
   padding-left: 0.5em;
 }
 
 .code_heading::after {
-  content: "   {";
+  content: "  {";
   font-size: 1em;
+  font-weight: 400;
   padding-left: 0.5em;
 
 }
 
 .tekst {
   padding-top: .5em;
-  padding-bottom: .5em;
-  padding-left: 1.5em;
+  padding-left: 2em;
   font-size: 1.5em;
 }
 
 .bracket {
-  padding-bottom: 1em;
+  font-size: 40px;
+  font-weight: 400;
   padding-left: 0.5em;
 }
 
 .btn {
-  margin-left: 8em;
+  margin-left: 1.5em;
   margin-bottom: 1.5em;
 }
 
