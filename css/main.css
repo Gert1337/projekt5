@@ -213,7 +213,8 @@ video {
     padding-bottom: 20px;
     position: relative;
     bottom: 20px;
-    left: 50%;
+    margin-left: 50%;
+    right: 48px;
     -webkit-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
@@ -243,7 +244,7 @@ button {
   padding: 10px 20px;
   font-size: 17px;
   cursor: pointer;
-  width: 110px;
+  width: 120px;
 }
 
 button:hover {
@@ -253,7 +254,7 @@ button:hover {
 #prevBtn {
   background-color: #fff;
   color: #a6bb75;
-  margin-right: 150px;
+  margin-right: 135px;
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: 'Roboto Mono', monospace;
@@ -404,7 +405,7 @@ background-color: #fff;
   }
 
   #tocontent{
-    bottom: 100px;
+    bottom: 20px;
   }
 
   .videowrapper {
@@ -412,7 +413,7 @@ background-color: #fff;
   }
 
   #prevBtn {
-    margin-right: 156px;
+    margin-right: 145px;
   }
 }
 
