@@ -210,7 +210,7 @@ video {
 
 #tocontent {
     padding-bottom: 20px;
-    position: absolute;
+    position: relative;
     bottom: 20px;
     left: 50%;
     -webkit-transform: translate(-50%, 0);
@@ -369,6 +369,10 @@ top: 0;
 /* Style the active link (or home/logo) */
 .active {
 color: white;
+}
+
+#myLinks {
+  display: none;
 }
 
 #myLinks ul {
