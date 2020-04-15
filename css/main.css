@@ -266,6 +266,15 @@ button {
   margin-top: 40px;
   margin-bottom: 40px;
   font-family: 'Roboto Mono', monospace;
+  cursor: pointer;
+}
+
+#prevBtn:hover {
+  opacity: 0.8;
+}
+
+#nextBtn:hover {
+  opacity: 0.8;
 }
 
 #nextBtn {
@@ -273,6 +282,7 @@ button {
   margin-bottom: 40px;
   font-family: 'Roboto Mono', monospace;
   color: #fff;
+  cursor: pointer;
 }
 
 
