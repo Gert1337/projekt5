@@ -1,1 +1,1 @@
-alert("Er du interesseret i at få udviklet dine apps? Hos os sidder vi med en masse kreatører, der er passioneret i at hjælpe folk med at udvikle apps i alle typer løsninger til både IOS og Android. Udover du får et unikt tilbud, så er det både hurtigt og enkelt at udfylde formularen. ");
+alert("Velkommen til vores skoleprojekt. Vi har designet og kodet en landingspage, der giver kunden informationer, inden de tager kontakt med House of Code, når skal købe et produkt eller udvikle en app. Meget af vores kode er fra House of Code. ");
