@@ -681,6 +681,10 @@ text-decoration: underline;
 transition: color 200ms;
 }
 
+a:hover {
+  color: #d8a55a;
+}
+
 footer h4 {
   margin-bottom: 1.7em;
 }
