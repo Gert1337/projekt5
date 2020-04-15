@@ -4,6 +4,7 @@ body {
   font-size: 15px;
   letter-spacing: -0.013em;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -96,6 +97,10 @@ nav li::before {
   font-weight: bold;
   text-decoration: none;
   font-size: 16px;
+}
+
+.buttonwidth{
+  width: 120px;
 }
 
 .page-links {
@@ -292,6 +297,8 @@ button {
   font-family: 'Roboto Mono', monospace;
   color: #fff;
   cursor: pointer;
+  border: 3px solid #a6bb75;
+  display: inline-block;
 }
 
 
@@ -740,6 +747,7 @@ footer ul {
     height: 300px;
   }
 
+
   .center{
     margin: 0 auto;
     width: 100%;
@@ -768,18 +776,22 @@ footer ul {
 }
 
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 400px) {
   .accordion{
     padding-left: 0;
     padding-right: 0;
     width: 300px;
   }
 
-  .antal .platform, .stepup,.tab img, .overskrift, .beskrivelse, .texty {
+  .antal, .accordionwrapper, .platform, .stepup,.tab img, .overskrift, .beskrivelse, .texty {
     width: 300px;
   }
 input[type=text], input[type=email] {
   width: 260px;
+}
+
+.panel6{
+  width: 294px;
 }
 
 textarea {
@@ -787,6 +799,13 @@ textarea {
 }
 #prevBtn {
   margin-right: 60px;
+}
+#indhold, #target-o{
+
+width: 294px;
+padding: 0;
+height: 60px;
+
 }
 
 }
