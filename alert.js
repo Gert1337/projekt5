@@ -1,3 +1,1 @@
-<script>
-  alert("alert i header");
-</script>
+  alert("Er du interesseret i at få udviklet dine apps? Hos os sidder vi med en masse kreatører, der er passioneret i at hjælpe folk med at udvikle apps i alle typer løsninger til både IOS og Android. Udover du får et unikt tilbud, så er det både hurtigt og enkelt at udfylde formularen. ");
