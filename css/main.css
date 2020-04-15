@@ -402,6 +402,7 @@ background-color: #fff;
 
 .main-text {
   margin-top: 80px;
+  padding-left: 50px;
 }
 
 .video-wrapper {
@@ -422,6 +423,10 @@ background-color: #fff;
   .main-content {
     margin-left: 20px;
     margin-right: 20px;
+  }
+
+  .main-text {
+    padding-left: 20px;
   }
 
   #tocontent{
