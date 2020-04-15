@@ -224,7 +224,7 @@ video {
 #tocontent {
     padding-bottom: 20px;
     position: relative;
-    bottom: 20px;
+    bottom: 90px;
     margin-left: 50%;
     right: -98px;
     -webkit-transform: translate(-50%, 0);
