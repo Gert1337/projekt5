@@ -2,20 +2,26 @@
 <html lang="da" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="css/main.css">
-  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico" size="16x16">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Hvad koster en app; tag kontakt og få et unikt tilbud for din unikke vision</title>
+  <!--JS-->
   <script src="mobile-nav.js" defer></script>
   <script src="top.js" defer></script>
   <script src="js.js" defer charset="utf-8"></script>
   <script src="alert.js" defer></script>
+
+  <!--CSS-->
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="shortcut icon" type="image/ico" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--HEAD-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hvad koster en app; tag kontakt og få et unikt tilbud for din unikke vision</title>
 </head>
 
+<nav>
 <body>
-  <nav>
+  <!--Navigationsbar-->
     <a href="https://www.houseofcode.io/" class="nav-logo"></a>
     <ul class="menu">
       <li><a title="Projekter" class="nav-link item project-paranth" href="https://www.houseofcode.io/projekter/">Projekter</a></li>
@@ -27,6 +33,7 @@
       <li><a title="Kontakt" class="nav-link item kontakt-end" href="https://www.houseofcode.io/kontakt/">Kontakt</a></li>
     </ul>
   </nav>
+  <!--Mobil ver. Navigationsbar-->
   <a href="#" class="active mobile-logo"></a>
   <div class="topnav">
     <a href="#" class="active mobile-logo"></a>
@@ -41,21 +48,28 @@
         <li><a title="Kontakt" class="nav-link item kontakt-end" href="https://www.houseofcode.io/kontakt/">Kontakt</a></li>
       </ul>
     </div>
+    <!--Burgerbar/JS-->
     <a href="javascript:void(0);" class="icon" onclick="openMenu()">
       <i class="fa fa-bars"></i>
     </a>
   </div>
+  <!--Video-->
   <div class="video-wrapper">
     <video loop autoplay muted id="app-video" width="inherit" height="inherit">
       <source src="media/hvad-koster-en-app.mp4" type="video/mp4">
     </video>
+  <!--Formular JS-->
     <a href="#main" onclick="scrollToFunction()" id="tocontent"> <b>scroll<span class="light-grey">View.</b></span></a>
   </div>
+  <!--Formular-->
   <div id="formular">
     <div class="main-content main-content2">
+      <!--Kort brødtekst/beskrivelse-->
         <h1 class="main-text overskrift">Hvad koster en <span class="orange">app</span>?</h1>
       <p class="beskrivelse">Er du interesseret i at få udviklet dine apps? Hos os sidder vi med en masse kreatører, der er passioneret i at hjælpe folk med at udvikle apps i alle typer løsninger til både iOS og Android. Udover du får et unikt tilbud, så er det både hurtigt og enkelt at udfylde formularen. </p>
-      <form action="thanku.html" class="billed" id="regForm" action="" method="">
+      <!--Action linker til thank.html-->
+      <form action="thanku.html" class="billed" id="regForm">
+      <!--Husets opbygning når man submitter-->
         <div class="tab">
           <img src="img/hus1.png" alt="Hus uden farver">
         </div>
@@ -75,7 +89,7 @@
           <img src="img/hus6.png" alt="Hele farvet hus">
         </div>
       </form>
-
+      <!--Accordion stepup-->
       <div class="accordionwrapper">
         <div class="stepup">
           <span class="step"></span>
@@ -84,6 +98,7 @@
           <span class="step"></span>
           <span class="step"></span>
         </div>
+    <!--Formular-->
     <!-- NOTE: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_accordion_animate er brugt til at animere og gemme panelerne -->
       <button class="accordion pink-bg">Hvilken platform skal den bruges på?</button>
         <div class="panel">
@@ -158,10 +173,9 @@
           <button type="submit" id="nextBtn" class="buttonwidth" onclick="nextPrev(1)">Næste </button>
         </div>
       </div>
-
-
     </div>
   </div>
+  <!--Footer-->
   <footer id="footer" role="contentinfo">
     <div class="center">
       <div class="row.footer-content">
