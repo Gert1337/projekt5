@@ -463,6 +463,8 @@ background-color: #fff;
     margin-top: 250px;
   }
 
+
+
   #prevBtn {
     margin-right: 145px;
   }
@@ -473,8 +475,13 @@ background-color: #fff;
     margin-right: 0px;
   }
 
+  .accordion {
+    padding: 0;
+  }
+
   .btn-wrapper {
     display: flex;
+    max-width: 300px;
   }
 }
 
@@ -758,4 +765,28 @@ footer ul {
   footer{
   padding: 150px 100px;
 }
+}
+
+
+@media only screen and (max-width: 420px) {
+  .accordion{
+    padding-left: 0;
+    padding-right: 0;
+    width: 300px;
+  }
+
+  .antal .platform, .stepup,.tab img, .overskrift, .beskrivelse, .texty {
+    width: 300px;
+  }
+input[type=text], input[type=email] {
+  width: 260px;
+}
+
+textarea {
+  width: 300px;
+}
+#prevBtn {
+  margin-right: 60px;
+}
+
 }
