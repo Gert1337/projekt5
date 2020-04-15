@@ -1,3 +1,1 @@
-<script>
-  alert("alert i header");
-</script>
+alert("alert i header");
