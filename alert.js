@@ -1,1 +1,1 @@
-alert("Velkommen til vores skoleprojekt. Vi har designet og kodet en landingspage, der giver kunden informationer, inden de tager kontakt med House of Code, når skal købe et produkt eller udvikle en app. Meget af vores kode er fra House of Code. ");
+alert("Velkommen til vores skoleprojekt. Vi har designet og kodet en landingspage, der giver kunden informationer, inden de tager kontakt med House of Code, når skal købe et produkt eller udvikle en app. Meget af vores kode er taget fra House of Code. ");
