@@ -76,10 +76,7 @@ nav li::before {
 
 
 .main-text {
-  position: absolute;
   top: 20px;
-  padding-left: 3.5em;
-  padding-bottom: 2em;
 }
 
 .btn {
@@ -258,13 +255,9 @@ button {
   border: 3px solid #a6bb75;
   padding: 10px 20px;
   font-size: 17px;
-  cursor: pointer;
   width: 120px;
 }
 
-button:hover {
-  opacity: 0.8;
-}
 
 #prevBtn {
   background-color: #fff;
@@ -300,9 +293,12 @@ button:hover {
   display: grid;
   grid-template-columns: 386px 1fr;
 }
-
+.main-text {
+  grid-row: 1/2;
+}
 .beskrivelse {
   padding-top: 20px;
+  grid-row: 2/3;
 
 
 }
@@ -341,13 +337,17 @@ transform: translateY(-50%);
    margin-top: 100px;
    margin-left: 50px;
    margin-right: 50px;
+   display: grid;
+   grid-template-columns: 400px;
  }
 
   nav {
     display: none;
   }
 
-
+.beskrivelse {
+  width: 386px;
+}
   .topnav {
 overflow: hidden;
 position: relative;
@@ -409,7 +409,7 @@ background-color: #fff;
 
 .main-text {
   margin-top: 80px;
-  padding-left: 50px;
+
 }
 
 .video-wrapper {
@@ -433,7 +433,7 @@ background-color: #fff;
   }
 
   .main-text {
-    padding-left: 20px;
+    max-width: 386px;
   }
 
   #tocontent{
