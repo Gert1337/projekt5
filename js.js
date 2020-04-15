@@ -18,6 +18,8 @@ function showTab(n) {
   } else {
     document.getElementById("nextBtn").innerHTML = "Næste";
   }
+
+
   // ... and run a function that displays the correct step indicator:
   fixStepIndicator(n)
 }
