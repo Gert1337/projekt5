@@ -11,6 +11,10 @@ body {
   margin-right: 240px;
 }
 
+.overskrift {
+  font-size: 25px;
+}
+
 nav {
   width: 160px;
   padding: 40px 50px;
@@ -306,6 +310,7 @@ button {
 .main-text {
   grid-row: 1/2;
 }
+
 .beskrivelse {
   padding-top: 20px;
   grid-row: 2/3;
