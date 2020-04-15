@@ -229,7 +229,7 @@ video {
     position: relative;
     bottom: 20px;
     margin-left: 50%;
-    right: 48px;
+    right: -98px;
     -webkit-transform: translate(-50%, 0);
     -ms-transform: translate(-50%, 0);
     transform: translate(-50%, 0);
@@ -302,6 +302,7 @@ button:hover {
 }
 .accordionwrapper{
   grid-column: 1/2;
+  width: 400px;
 }
 .billed {
   grid-column: 2/3;
@@ -409,6 +410,10 @@ background-color: #fff;
   z-index: -1;
 }
 
+#tocontent {
+  right:48px;
+}
+
 }
 
 /* NOTE: mobil only */
@@ -421,6 +426,7 @@ background-color: #fff;
 
   #tocontent{
     bottom: 20px;
+    right: 48px;
   }
 
   .videowrapper {
@@ -604,6 +610,7 @@ a:active {
   overflow: hidden;
   justify-content: center;
   display: flex;
+  width: 386px;
 }
 
 .step {
