@@ -300,6 +300,13 @@ button:hover {
   display: grid;
   grid-template-columns: 386px 1fr;
 }
+
+.beskrivelse {
+  padding-top: 20px;
+
+
+}
+
 .accordionwrapper{
   grid-column: 1/2;
   width: 400px;
@@ -623,7 +630,7 @@ a:active {
   width: 60px;
   margin-left:2px;
   margin-right: 2px;
-  margin-top: 80px;
+  margin-top: 25px;
   margin-bottom: 20px;
   background-color: #aa81ac;
   border: none;
