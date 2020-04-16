@@ -4,6 +4,7 @@ body {
   font-size: 15px;
   letter-spacing: -0.013em;
   padding: 0;
+  overflow-x: hidden;
 }
 
 html {
@@ -96,6 +97,10 @@ nav li::before {
   font-weight: bold;
   text-decoration: none;
   font-size: 16px;
+}
+
+.buttonwidth{
+  width: 120px;
 }
 
 .page-links {
@@ -292,6 +297,8 @@ button {
   font-family: 'Roboto Mono', monospace;
   color: #fff;
   cursor: pointer;
+  border: 3px solid #a6bb75;
+  display: inline-block;
 }
 
 
@@ -463,6 +470,8 @@ background-color: #fff;
     margin-top: 250px;
   }
 
+
+
   #prevBtn {
     margin-right: 145px;
   }
@@ -473,8 +482,13 @@ background-color: #fff;
     margin-right: 0px;
   }
 
+  .accordion {
+    padding: 0;
+  }
+
   .btn-wrapper {
     display: flex;
+    max-width: 300px;
   }
 }
 
@@ -524,8 +538,8 @@ html {
 }
 
 body {
-	margin: 0
-  color: #000;
+margin: 0;
+color: #000;
 font-weight: 400;
 font-size: 15px;
 line-height: normal;
@@ -626,7 +640,7 @@ a:active {
    width: 350px;
   padding: 15px;
   color:#515f5d;
-  font-family: "roboto mono" monospace;
+  font-family: "Roboto Mono", monospace;
  }
 
 
@@ -681,6 +695,10 @@ text-decoration: underline;
 transition: color 200ms;
 }
 
+a:hover {
+  color: #d8a55a;
+}
+
 footer h4 {
   margin-bottom: 1.7em;
 }
@@ -729,6 +747,7 @@ footer ul {
     height: 300px;
   }
 
+
   .center{
     margin: 0 auto;
     width: 100%;
@@ -754,4 +773,39 @@ footer ul {
   footer{
   padding: 150px 100px;
 }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .accordion{
+    padding-left: 0;
+    padding-right: 0;
+    width: 300px;
+  }
+
+  .antal, .accordionwrapper, .platform, .stepup,.tab img, .overskrift, .beskrivelse, .texty {
+    width: 300px;
+  }
+input[type=text], input[type=email] {
+  width: 260px;
+}
+
+.panel6{
+  width: 294px;
+}
+
+textarea {
+  width: 300px;
+}
+#prevBtn {
+  margin-right: 60px;
+}
+#indhold, #target-o{
+
+width: 294px;
+padding: 0;
+height: 60px;
+
+}
+
 }
