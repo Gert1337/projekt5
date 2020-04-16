@@ -7,16 +7,6 @@
   <title>Styleguide ti House of Code landingsite</title>
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <script type="text/javascript" defer>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
-  </script>
 </head>
 
 <body>
@@ -38,6 +28,16 @@
       <i class="fa fa-bars"></i>
     </a>
   </div>
+  <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+  </script>
 
 <!-- TEKST STYLING -->
 
@@ -192,7 +192,7 @@
     </div>
     <form class="" action="index.html" method="post">
       <label for="name">Name</label><br>
-      <input type="text" name="name" value="" class="text-field">
+      <input type="text" name="name" value="" class="text-field" id="name">
 
     </form>
   </div>
